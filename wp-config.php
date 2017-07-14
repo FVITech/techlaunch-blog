@@ -18,17 +18,16 @@
  * @package WordPress
  */
 
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'techlaunchio');
 
 /** MySQL config */
-if (gethostname()=='DESKTOP-NDCV23N-'){
+if (gethostname()=='ip-172-31-35-243'){
 	/** MySQL database username */
-	define('DB_USER', 'root');
-	/** MySQL database password */
-	define('DB_PASSWORD', '');
-	define('DB_HOST', 'localhost');
+	define('WP_HOME', 'http://ec2-52-91-168-136.compute-1.amazonaws.com/blog/');
+	define('WP_SITEURL', 'http://ec2-52-91-168-136.compute-1.amazonaws.com/blog/')
 }
 else{
 	/** MySQL database username */
