@@ -27,7 +27,7 @@ define('DB_NAME', 'techlaunchio');
 if (gethostname()=='ip-172-31-35-243'){
 	/** MySQL database username */
 	define('WP_HOME', 'http://ec2-52-91-168-136.compute-1.amazonaws.com/blog/');
-	define('WP_SITEURL', 'http://ec2-52-91-168-136.compute-1.amazonaws.com/blog/')
+	define('WP_SITEURL', 'http://ec2-52-91-168-136.compute-1.amazonaws.com/blog/');
 }
 else{
 	/** MySQL database username */
