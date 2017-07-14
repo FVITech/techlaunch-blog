@@ -6,7 +6,7 @@
  *
  * @package TechLaunch
  */
-$extraClass='';
+$extraClass='post-single';
 if (!is_singular()){
 	$extraClass='post-tile';
 }
